@@ -43,7 +43,7 @@ git clone https://github.com/saurabh-2414/currency-converter
 
 3. Install the Live Server extension (if not already installed).
 
-4. Right-click on `index.html` and select:
+4. Right-click on `ind.html` and select:
 
 ```
 Open with Live Server
