@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(currency.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    min-height: 45vh;
+    width: 360px;
+    transition: 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+#title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+form {
+    margin: 1rem 0;
+}
+
+form select,
+form input,
+form button {
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+}
+
+form input {
+    border: 1px solid #d6d6d6;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.8rem;
+    transition: 0.3s ease;
+}
+
+form input:focus {
+    border-color: #4371f0;
+    box-shadow: 0 0 8px rgba(67, 113, 240, 0.3);
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: #4371f0;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.dropdown i:hover {
+    transform: rotate(180deg);
+}
+
+.select-container img {
+    max-width: 2rem;
+    margin-right: 8px;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    padding: 0.3rem;
+    border-radius: 12px;
+    border: 1px solid #d6d6d6;
+    transition: 0.3s ease;
+}
+
+.select-container:hover {
+    border-color: #4371f0;
+}
+
+.select-container select {
+    width: auto;
+    font-size: 1rem;
+    cursor: pointer;
+    background: transparent;
+}
+
+.msg {
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+}
+
+form button {
+    background: linear-gradient(135deg, #4371f0, #6d8fff);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 3rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+form button:hover {
+    background: linear-gradient(135deg, #2f5be0, #5b7eff);
+    transform: scale(1.02);
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+}
