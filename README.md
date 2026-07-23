@@ -36,7 +36,7 @@ Currency Converter/
 1. Clone the repository:
 
 ```bash
-git clone <your-repository-link>
+git clone https://github.com/saurabh-2414/currency-converter
 ```
 
 2. Open the project folder in Visual Studio Code.
